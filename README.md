@@ -1,5 +1,5 @@
 # Conway-Game-of-Life
-This is my console implementation of John Conway's Game of Life cellular automation. I was inspired to write this after hearing about his recent death.
+This is my console implementation of John Conway's Game of Life cellular automata
 
 Generation of cells is dictated by these simple rules:
 1. Any live cell with fewer than two live neighbours dies, as if by underpopulation.

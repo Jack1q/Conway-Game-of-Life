@@ -1,13 +1,13 @@
 public class Coordinate
 {
   private int row;
-  private int column;
+  private int col;
   private int neighborCount;
 
-  public Coordinate(int row, int column, int neighborCount)
+  public Coordinate(int row, int col, int neighborCount)
   {
     this.row = row;
-    this.column = column;
+    this.col = col;
     this.neighborCount = neighborCount;
   }
 
@@ -18,12 +18,11 @@ public class Coordinate
 
   public int getColumn()
   {
-    return column;
+    return col;
   }
 
   public int getNeighborCount()
   {
     return neighborCount;
   }
-
 }
